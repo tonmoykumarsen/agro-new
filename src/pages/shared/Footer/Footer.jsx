@@ -1,11 +1,10 @@
-import React from 'react';
-import ProFastLogo from '../ProFastLogo/ProFastLogo';
+import Agrofarm from '../Agrofarm/Agrofarm';
 
 const Footer = () => {
     return (
         <footer className="footer footer-horizontal footer-center bg-neutral text-neutral-content p-10">
             <aside>
-                <ProFastLogo></ProFastLogo>
+               <Agrofarm></Agrofarm>
                 <p className="font-bold">
                     ACME Industries Ltd.
                     <br />

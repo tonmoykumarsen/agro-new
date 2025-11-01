@@ -1,6 +1,5 @@
-import React from 'react';
 import { NavLink } from "react-router-dom";
-import ProFastLogo from '../ProFastLogo/ProFastLogo';
+import Agrofarm from '../Agrofarm/Agrofarm';
 
 const Navbar = () => {
 
@@ -23,7 +22,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">
-                    <ProFastLogo></ProFastLogo>
+                    <Agrofarm></Agrofarm>
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">
